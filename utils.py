@@ -25,12 +25,7 @@ def find_gcd(a, b):
     return a
 
 
-num = int(input())
-if simple(num):
-    print("є простим числом")
-else:
-    print("не є простим числом")
-    
+
 def check_even_odd(number):
     if number % 2 == 0:
         return "Парне число"
