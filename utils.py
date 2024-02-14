@@ -18,8 +18,16 @@ def simple(n):
         i += 6
     return True
 
+
+def find_gcd(a, b):
+    while b:
+        a, b = b, a % b
+    return a
+
+
 num = int(input())
 if simple(num):
     print("є простим числом")
 else:
     print("не є простим числом")
+    
